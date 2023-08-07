@@ -1,0 +1,35 @@
+body {
+    background-color: #FFF9C9;
+    color:#862B0D;
+    margin: 3% 15%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.items {
+    min-height: 25rem;
+    min-width: 15rem;
+    padding: 5rem;
+    text-align: center;
+
+}
+
+.items img {
+    height: 100%;
+    width: 120%;
+    border-radius: 2.5rem;
+    pointer-events: none;
+}
+
+.inner-carousel {
+    display: flex;
+    cursor: grab;
+}
+
+.carousel {
+    overflow: hidden;
+}
